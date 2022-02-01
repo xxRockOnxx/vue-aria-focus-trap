@@ -1,0 +1,40 @@
+{
+  "name": "vue-aria-focus-trap",
+  "version": "0.1.0",
+  "description": "A Vue.js component that implements WAI-ARIA focus trapping",
+  "main": "dist/vue-focus-trap.umd.js",
+  "module": "dist/vue-focus-trap.esm.js",
+  "unpkg": "dist/vue-focus-trap.min.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve dev/index.js",
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-focus-trap.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-focus-trap.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-focus-trap.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxRockOnxx/vue-focus-trap.git"
+  },
+  "keywords": [
+    "vue",
+    "accessibility"
+  ],
+  "author": "xxRockOnxx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxRockOnxx/vue-focus-trap/issues"
+  },
+  "homepage": "https://github.com/xxRockOnxx/vue-focus-trap#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@vue/cli-service": "^4.5.15",
+    "rollup": "^2.66.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
