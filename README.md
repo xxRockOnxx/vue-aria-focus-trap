@@ -18,6 +18,8 @@ yarn add vue-aria-focus-trap
 
 Check out the simple example application in the `dev` folder. [Link](./dev/App.vue).
 
+CodePen demo also available: https://codepen.io/captainskippah/pen/ExbvzgO.
+
 ## Contributing
 
 Feel free opening Issues or Pull Requests. I'll check them out **whenever** I can.
