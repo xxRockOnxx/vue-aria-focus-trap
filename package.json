@@ -1,6 +1,6 @@
 {
   "name": "vue-aria-focus-trap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vue.js component that implements WAI-ARIA focus trapping",
   "main": "dist/vue-focus-trap.umd.js",
   "module": "dist/vue-focus-trap.esm.js",
@@ -33,7 +33,7 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@vue/cli-service": "^4.5.15",
     "rollup": "^2.66.1",
-    "rollup-plugin-vue": "^6.0.0",
+    "rollup-plugin-vue": "^5.1.9",
     "vue": "^2.6.14",
     "vue-template-compiler": "^2.6.14"
   }
