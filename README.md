@@ -2,7 +2,7 @@
 
 A Vue.js component that implements WAI-ARIA focus trapping.
 
-Inspired from [ARIA 1.2 Modal Dialog example](https://www.w3.org/TR/wai-aria-practices-1.2/examples/dialog-modal/dialog.html).
+Inspired from [ARIA 1.2 Modal Dialog example](https://w3c.github.io/aria-practices/examples/dialog-modal/dialog.html).
 
 ## Installation
 
