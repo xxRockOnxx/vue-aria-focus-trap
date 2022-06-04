@@ -1,5 +1,8 @@
 # vue-aria-focus-trap
 
+![npm](https://img.shields.io/npm/v/vue-aria-focus-trap)
+![npm](https://img.shields.io/npm/dm/vue-aria-focus-trap)
+
 A Vue.js component that implements WAI-ARIA focus trapping.
 
 Inspired from [ARIA 1.2 Modal Dialog example](https://w3c.github.io/aria-practices/examples/dialog-modal/dialog.html).
